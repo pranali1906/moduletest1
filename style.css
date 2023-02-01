@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    
+
+}
+nav{
+    background: white;
+}
+.navitem{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+width: 75px;
+height: 40px;
+background: rgba(255, 255, 255, 1e-06);
+flex: none;
+order: 0;
+flex-grow: 0;;
+
+}
+.box{
+    box-sizing: border-box;
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 12px;
+
+width: 203px;
+height: 38px;
+
+
+
+background: #FFFFFF;
+
+
+border: 1px solid #CED4DA;
+border-radius: 4px;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.ho{
+    width: 43px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Gray/700 */
+
+color: #495057;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.fe{
+    width: 62px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Theme/Primary */
+
+color: #0D6EFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.pi{
+    width: 50px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Theme/Primary */
+
+color: #0D6EFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.at{
+    width: 43px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Theme/Primary */
+
+color: #0D6EFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.cont{
+    width: 81px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Theme/Primary */
+
+color: #0D6EFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.se{
+    width: 51px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Theme/Primary */
+
+color: #0D6EFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.layout{
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1666px;
+height: 40px;
+left: 31px;
+top: 19px;
+
+/* HitBox
+
+Hitbox makes whole element selectable when press & hold Ctrl key
+It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+*/
+background: rgba(255, 255, 255, 1e-06);
+}
+carousel-item{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 40px;
+
+position: absolute;
+width: 112px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+/* HitBox
+
+Hitbox makes whole element selectable when press & hold Ctrl key
+It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+*/
+background: rgba(255, 255, 255, 1e-06);
+opacity: 0.5;
+
+}
+.carousel-inner{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 138px;
+height: 23px;
+left: calc(50% - 138px/2 - 0.5px);
+bottom: 16px;
+
+/* HitBox
+
+Hitbox makes whole element selectable when press & hold Ctrl key
+It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+*/
+background: rgba(255, 255, 255, 1e-06);
+}
+.carousel-indicators{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 0px;
+
+width: 30px;
+height: 23px;
+
+/* HitBox
+
+Hitbox makes whole element selectable when press & hold Ctrl key
+It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+*/
+background: rgba(255, 255, 255, 1e-06);
+border-radius: 1px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.carousel-itemactive{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 1.5px 15px;
+
+width: 30px;
+height: 3px;
+
+/* Gray/White */
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.carousel-caption d-none d-md-block{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 1.5px 15px;
+
+width: 30px;
+height: 3px;
+
+/* Gray/White */
+
+background: #FFFFFF;
+opacity: 0.5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.carousel-caption d-none d-md-block{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 1.5px 15px;
+
+width: 30px;
+height: 3px;
+
+/* Gray/White */
+
+background: #FFFFFF;
+opacity: 0.5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card-img-top{position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    background: url(.png), rgba(0, 0, 0, 0.9);
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;}
+    .card-body{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+width: 528px;
+height: 193px;
+
+/* HitBox
+
+Hitbox makes whole element selectable when press & hold Ctrl key
+It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+*/
+background: rgba(255, 255, 255, 1e-06);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .card-title{
+        display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 0px 8px;
+
+width: 496px;
+height: 32px;
+
+/* HitBox
+
+Hitbox makes whole element selectable when press & hold Ctrl key
+It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+*/
+background: rgba(255, 255, 255, 1e-06);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .card-text{
+        width: 496px;
+height: 24px;
+
+/* Heading/H5 */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+
+display: flex;
+align-items: center;
+
+/* Body Text/Body Color */
+
+color: #212529;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .aaccordion{
+        width: 1582px;
+height: 24px;
+
+/* Body/Regular */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+display: flex;
+align-items: center;
+
+/* Body Text/Body Color */
+
+color: #212529;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    
